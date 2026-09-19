@@ -1,209 +1,81 @@
-KSRTC Parcel
+# KSRTC Parcel
 
-«BOOK. TRACK. COLLECT.»
+> **BOOK. TRACK. COLLECT.**
 
-A digital experience for simplifying the KSRTC parcel journey — from booking and digital confirmation to tracking, issue reporting, and verified collection.
+A digital interface designed to make the KSRTC parcel journey simpler — from booking and tracking to collection.
 
-🚀 Live Demo
+## [Live Demo](https://ksrtc-parcel.vercel.app/)
 
-"Open KSRTC Parcel →" (https://ksrtc-parcel.vercel.app/)
 
-«The prototype is deployed and can be accessed directly through the link above.»
 
----
+## 📌 About
 
-📌 About the Project
+KSRTC already provides courier and logistics services.  
+This prototype brings key customer and staff interactions into one simple digital experience.
 
-KSRTC already operates a courier and logistics service with consignment tracking.
+Customers can book parcels, receive a digital consignment ID, track parcel status, report issues, and complete collection.
 
-KSRTC Parcel explores a simpler digital experience layer around that existing workflow by bringing key customer and staff interactions into one interface.
+Staff can manage parcel status, handle reported issues, verify receivers, and complete handovers.
 
-The core idea is:
+## ✨ Features
 
-One parcel. One digital identity. One visible journey.
+### Customer
+- Parcel booking
+- Digital receipt and QR
+- Consignment ID
+- Parcel tracking
+- Issue reporting
+- Collection status
+- Receiver verification
 
----
+### Staff
+- Parcel dashboard
+- Consignment search
+- Status updates
+- Issue management
+- Receiver verification
+- Collection management
 
-✨ Key Features
+## 🔄 Parcel Journey
 
-👤 Customer
-
-- 📦 Digital parcel booking
-- 🧾 Digital booking confirmation
-- 🔢 Unique consignment ID
-- 📱 QR-based digital receipt
-- 🚚 Visual parcel tracking timeline
-- 🔔 Ready-for-collection notification preference
-- ⚠️ Parcel issue reporting
-- ❌ Booking cancellation
-- 🔐 Receiver verification
-- ✅ Collection confirmation
-
-👨‍💼 Staff
-
-- 📊 Parcel dashboard
-- 🔎 Consignment search
-- 📦 Parcel details
-- 🔄 Status management
-- ⚠️ Issue management
-- 🔐 Receiver handover verification
-- ✅ Collection completion
+```text
+BOOKED → ACCEPTED → LOADED → IN TRANSIT
+→ ARRIVED → READY FOR COLLECTION → COLLECTED
 
 ---
 
-🔄 Parcel Journey
-
-BOOKED
-   ↓
-ACCEPTED
-   ↓
-LOADED
-   ↓
-IN TRANSIT
-   ↓
-ARRIVED
-   ↓
-READY FOR COLLECTION
-   ↓
-COLLECTED
-
-Issue Resolution
-
-REPORTED
-   ↓
-ACKNOWLEDGED
-   ↓
-RESOLVED
+## 🛠️ Built With
+React
+Vite
+JavaScript
+CSS
+Lucide React
+QRCode
 
 ---
 
-🧠 How It Works
-
-1. Book
-
-The customer enters the origin, destination, sender, receiver, parcel category and weight.
-
-2. Confirm
-
-A unique consignment ID and digital booking confirmation are generated.
-
-3. Track
-
-The customer can follow recorded parcel status updates through a visual timeline.
-
-4. Arrive
-
-The parcel reaches the destination stage and becomes ready for collection.
-
-5. Verify
-
-The receiver completes the demo handover verification.
-
-6. Collect
-
-The parcel is marked as collected.
-
----
-
-🛠️ Tech Stack
-
-- React
-- Vite
-- JavaScript
-- CSS
-- Lucide React
-- QRCode
-- Local State / LocalStorage
-
----
-
-🖥️ Run Locally
-
-Clone the repository
-
+## 💻 Run Locally
+Clone the repository:
 git clone https://github.com/alfredlesslie/ksrtc-parcel.git
-
-Navigate to the project
-
+Open the project:
 cd ksrtc-parcel
-
-Install dependencies
-
+Install dependencies:
 npm install
-
-Start the development server
-
+Start the application:
 npm run dev
-
-Open:
-
+Then open:
 http://localhost:5173
+---
+
+##⚠️ Prototype Limitations
+
+This is a prototype and currently uses simulated/local data.
+It is not connected to KSRTC's internal systems or APIs. Real-time parcel data, online payments, SMS notifications, and production authentication are not implemented yet.
 
 ---
 
-🧪 Prototype Scope
+##🎯 Vision
 
-This is a working prototype created for the ANAVANDI 2026 selection process.
-
-The prototype currently uses simulated/local data and does not connect to KSRTC's internal systems or APIs.
-
-Currently simulated
-
-- Parcel records
-- Consignment status updates
-- Charge estimates
-- Notifications
-- OTP verification
-- Collection estimates
-
-Production integration opportunities
-
-- KSRTC system/API integration
-- Real consignment data
-- Real notifications
-- Digital payments
-- Depot-level integration
-- Production authentication and security
-- Real-time logistics updates where available
+Make every parcel easier to follow — from booking to collection.
 
 ---
-
-🎯 Product Vision
-
-«Make every parcel easier to follow.»
-
-From booking to collection, customers should always know what happened, what happens next, and where they need to act.
-
----
-
-📁 Project Structure
-
-ksrtc-parcel/
-│
-├── public/
-├── src/
-│   ├── components/
-│   ├── context/
-│   ├── data/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-│
-├── package.json
-├── vite.config.js
-└── README.md
-
----
-
-👥 Project
-
-KSRTC Parcel
-
-Built for ANAVANDI 2026
-
-Live Prototype:
-https://ksrtc-parcel.vercel.app/
-
-Repository:
-https://github.com/alfredlesslie/ksrtc-parcel
