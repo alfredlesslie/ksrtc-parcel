@@ -4,7 +4,7 @@
 
 A digital interface designed to make the KSRTC parcel journey simpler — from booking and tracking to collection.
 
-## [Live Demo](https://ksrtc-parcel.vercel.app/)
+### [Live Demo](https://ksrtc-parcel.vercel.app/)
 
 
 
@@ -42,6 +42,7 @@ Staff can manage parcel status, handle reported issues, verify receivers, and co
 BOOKED → ACCEPTED → LOADED → IN TRANSIT
 → ARRIVED → READY FOR COLLECTION → COLLECTED
 
+```
 ---
 
 ## 🛠️ Built With
