@@ -36,48 +36,48 @@ Staff can manage parcel status, handle reported issues, verify receivers, and co
 - Receiver verification
 - Collection management
 
-## 🔄 Parcel Journey
+## 📦 Parcel Journey
 
-```text
-BOOKED → ACCEPTED → LOADED → IN TRANSIT
+BOOKED → ACCEPTED → LOADED → IN TRANSIT  
 → ARRIVED → READY FOR COLLECTION → COLLECTED
 
-```
----
-
 ## 🛠️ Built With
-React
-Vite
-JavaScript
-CSS
-Lucide React
-QRCode
 
----
+- React
+- Vite
+- JavaScript
+- CSS
+- Lucide React
+- QRCode
 
 ## 💻 Run Locally
 
 Clone the repository:
-git clone https://github.com/alfredlesslie/ksrtc-parcel.git
-Open the project:
-cd ksrtc-parcel
-Install dependencies:
-npm install
-Start the application:
-npm run dev
-Then open:
-http://localhost:5173
----
 
-##⚠️ Prototype Limitations
+git clone https://github.com/alfredlesslie/ksrtc-parcel.git
+
+Open the project:
+
+cd ksrtc-parcel
+
+Install dependencies:
+
+npm install
+
+Start the application:
+
+npm run dev
+
+Then open:
+
+http://localhost:5173
+
+## ⚠️ Prototype Limitations
 
 This is a prototype and currently uses simulated/local data.
+
 It is not connected to KSRTC's internal systems or APIs. Real-time parcel data, online payments, SMS notifications, and production authentication are not implemented yet.
 
----
-
-##🎯 Vision
+## 🎯 Vision
 
 Make every parcel easier to follow — from booking to collection.
-
----
