@@ -56,6 +56,7 @@ QRCode
 ---
 
 ## 💻 Run Locally
+
 Clone the repository:
 git clone https://github.com/alfredlesslie/ksrtc-parcel.git
 Open the project:
